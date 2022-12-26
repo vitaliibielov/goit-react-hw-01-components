@@ -4,12 +4,50 @@ body {
   font-size: 20px;
 }
 
-.statistics {
+.containerTwo {
   padding: 50px 0;
   margin: 0;
-  background-color: #e7ecf2;
+  background-color: #EFF3F5;
+}
+
+.statistics {
+  width: 450px;
+  margin: 0 auto 20px auto;
+  /* display: flex; */
+  text-align: center;
+  border: solid 2px #d8e0ea;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.title {
+  margin: 40px 0;
+  text-transform: uppercase;
+  color: #5A5E63;
+}
+.statList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item {
+  display: block;
+  flex-grow: 1;
+  /* padding: 20px; */
+  width: 80px;
+  padding: 20px 0;
+  color: #fff;
 }
 
 .label {
-  color: #000;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.percent {
+  display: block;
+  font-weight: 800;
 }
