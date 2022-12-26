@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.statistics {
+  padding: 50px 0;
+  margin: 0;
+  background-color: #e7ecf2;
+}
+
+.label {
+  color: #000;
+}
