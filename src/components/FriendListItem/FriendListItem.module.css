@@ -1,0 +1,52 @@
+/* <li className={css.item}>
+<span className={css.status}></span>
+<img className={css.avatar} src={avatar} alt={name} width="48" />
+<p className={css.name}>{name}</p> */
+
+.item {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 450px;
+    background-color: #fff;
+    border: solid 2px #d8e0ea;
+    border-radius: 5px;
+    gap: 30px;
+}
+
+
+
+.avatar {
+    display: block;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #d8e0ea;
+    border-radius: 5px;
+    background-color: #EFF3F5;
+}
+
+.name {
+    display: block;
+    color: #000;
+}
+
+.status {
+    display: block;
+    margin-left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
+
+.offline {
+    composes: status;
+    background-color: red;
+}
